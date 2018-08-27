@@ -24,7 +24,7 @@ def inp_read_parm(configuration_file_name):
 
     reportCMTVEM = list()#starting the report, reportCMTVEM will be written on the report txt file at every stage of the program
     reportCMTVEM.append("---------------------------------------------------------------")
-    reportCMTVEM.append("Citrine Challenge report file generated at:")    
+    reportCMTVEM.append("CMTVEM report file generated at:")    
     start_time = time.time()
     reportCMTVEM.append(str(datetime.datetime.now()))
     print(sys.version)
