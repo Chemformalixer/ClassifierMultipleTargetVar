@@ -30,7 +30,7 @@ def main():
     #Reads input parameters to configure preprocessing and modeling procedure
     start_time,configparms=inp_read_parm('configuration.txt') 
     #training_file_preprocessing_flag = True b/c it is preprocessing the training data
-    df,configparms, stab_sum_gen = preprocessing(configparms,lambda:None,True)  
+    df,configparms, stab_sum_gen = preprocessing(configparms,True)  
     #model_dispatcher is the dictionary of all N models for N targets
     model_dispatcher = train_validate(df,configparms)
     #Updates hyper parameters by tuning
@@ -38,7 +38,7 @@ def main():
     
     #Prediction:
     #training_file_preprocessing_flag = False b/c test data is undergoing preprocessing
-    df_unknown,_,_ = preprocessing(configparms,stab_sum_gen,False)
+    df_unknown,_,_ = preprocessing(configparms,False)
     #Predicts target stability vector on test set and writes the updated test csv file
     predict(configparms,df_unknown,model_dispatcher,start_time)
 
