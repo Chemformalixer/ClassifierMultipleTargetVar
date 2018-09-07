@@ -1,7 +1,7 @@
 #########################################################################################################################################
 #########################################################################################################################################
 ###                  Classification on Multiple Target Variables on the Same Dataset                                                  ###
-###                         Auxilliary File                                                                                           ### 
+###                         Parameter Tuning File                                                                                     ### 
 ###                       Programmed by E. M. (CMTVEM)                                                                                ###
 ###                                   July 2018                                                                                       ###
 ###   preprocessing: Performs preprocessing on training or test data according to configurations parameters                           ###
