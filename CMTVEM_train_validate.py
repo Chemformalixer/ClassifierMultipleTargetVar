@@ -4,6 +4,7 @@
 ###                                                                                                                                               ###
 ###                     Classification on Multiple Target Variables on the Same Dataset                                                           ### 
 ###             Automated Preprocessing, Balancing, Training and Validation and in House Hyper-parameter Tuning                                   ###
+###                                     Training and validation file                                                                                  ###
 ###                                 Programmed by E. M.   (CMTVEM)                                                                                ###
 ###                                   July 2018                                                                                                   ###
 ###   train_validate: Constructs, trains and validates the model                                                                                  ###
