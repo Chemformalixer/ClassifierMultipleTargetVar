@@ -1,0 +1,38 @@
+#training file name (e.g. training_data.csv)
+training_data.csv
+#test file name (e.g. test_data.csv)
+training_data.csv
+#outputfile report (e.g. performance_report.txt)
+performance_report.txt
+#imputation method (mn for mean based imputation, and none for no imputation)
+mn
+# Learning models (enter rf for random forest, svc for support vector machine, knn for k-nearest neighbor, gp for gaussian process, mlp for multi layer perceptron, ev for ensemble voting) 
+ev
+#SMOTE balacing method type (options: regular, borderline1, borderline2, svm)  
+regular
+#scale the data(enter yes for scaling and no for leaving input features intact)
+yes
+#choose hyperparameter optimization method for model (choose between ga for gradient ascent [ascent b/c maximizes mathews_score] or none for no hyperparameter tuning)
+none
+#hyper parameter tuning initials (eg. 12,5,6,2,3 as default)
+12,5,6,2,3
+#ROC plot file name in png format / enter none for not saving roc plot especially for tuning iterations
+roc_validation.png
+# Features that should be removed from data (add as many as needed)
+featurX1
+featureX2
+# Features that need imputation for zero values (i.e. when zero values are non-physical)
+featurX13
+featurX14
+featurX15
+# Features in the data that need to be converted to categorical 
+featurX23
+featurX28
+# Features, keys, and replacements for correction (format : feature, element, correct value)
+featurX22, entryX1, 8
+featurX25, entryX2, 80
+#Entries or rows index to remove 
+entryX100
+entryX1000
+entryX10000
+#end
