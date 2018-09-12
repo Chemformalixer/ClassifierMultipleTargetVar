@@ -1,4 +1,4 @@
-# Classifier for Multiple Target Variables by E.M.
+# Classifier for Multiple Target Variables
 
 Programmed by Ehsan Moharreri / email: e h s a n dot m o h a r r e ri Gmail
 
