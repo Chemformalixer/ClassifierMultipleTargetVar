@@ -4,7 +4,7 @@ Programmed by Ehsan Moharreri / email: e h s a n dot m o h a r r e ri Gmail
 
 
 This programm is for general ML classification on multiple target variables with unbalanced classes.
-Included in this file are automated preprocessing, balancing, training and validation with hyperparameter tuning algorithm from scratch.
+Included in this file are automated preprocessing, balancing, training and validation with hyperparameter tuning algorithm from scratch and prediction on a hold-out test set.
 
 
 1) Download and install python 3.5 from
