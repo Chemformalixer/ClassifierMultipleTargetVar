@@ -1,7 +1,6 @@
 # Classifier for Multiple Target Variables by E.M.
 
-
-# Programmed by Ehsan Moharreri / email: e h s a n dot m o h a r r e ri Gmail
+Programmed by Ehsan Moharreri / email: e h s a n dot m o h a r r e ri Gmail
 
 
 This is a template for general ML classification on multiple target variables with unbalanced classes.
