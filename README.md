@@ -3,7 +3,7 @@
 Programmed by Ehsan Moharreri / email: e h s a n dot m o h a r r e ri Gmail
 
 
-This is a template for general ML classification on multiple target variables with unbalanced classes.
+This programm is for general ML classification on multiple target variables with unbalanced classes.
 Included in this file are automated preprocessing, balancing, training and validation with hyperparameter tuning algorithm from scratch.
 
 
