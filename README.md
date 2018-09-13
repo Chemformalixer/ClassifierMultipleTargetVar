@@ -14,6 +14,7 @@ https://www.python.org/downloads/
 https://stackoverflow.com/questions/3701646/how-to-add-to-the-pythonpath-in-windows
 
 3) To make sure same libraries are installed execute the following command:
+
 pip install -r requirements.txt
 
 4) Make sure to have read access directory and that the configuration file is matching your dataset formatting
