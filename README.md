@@ -13,8 +13,11 @@ https://www.python.org/downloads/
 2) Add python to PATH as an environment variable:
 https://stackoverflow.com/questions/3701646/how-to-add-to-the-pythonpath-in-windows
 
-3) Make sure to have read access directory and that the configuration file is matching your dataset formatting
+3) To make sure same libraries are installed execute the following command:
+pip install -r requirements.txt
 
-4) Start with running the main.py code which calls other function codenamed with CMTVEM_functionname, you should not need much modification of the functions. Setting your parameters in the configuration.txt file should get you going.
+4) Make sure to have read access directory and that the configuration file is matching your dataset formatting
 
-5) Need help? Contact me via email noted above.
+5) Start with running the main.py code which calls other function codenamed with CMTVEM_functionname, you should not need much modification of the functions. Setting your parameters in the configuration.txt file should get you going.
+
+6) Need help? Contact me via email noted above.
